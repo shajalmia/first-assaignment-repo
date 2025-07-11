@@ -108,33 +108,35 @@ nav a{
 /* Action Styles */
 
 
- .action{
+ 
+
+ .action-section{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  margin-top: 116px;
-  gap:220px;
+  gap:100px;
+ 
   
+
  }
- .left-action{
+ .left-section{
   display: flex;
   flex-direction: column;
-  padding:60px 0;
   gap:23px;
-
-
+ }
+ /* .header-section{
+  font-weight: bold;
+  font-size: 42px;
+ } */
+ .action-description{
+  font-size: 24px;
+  color:#9d9bb9;
  }
  .image{
   border-radius: 48px;
  }
- .header-section{
-  font-weight: bold;
-  font-size: 42px;
- }
- .para{
-  font-size: 24px;
-  color:#252432
- }
+
+
  .launch-btn{
   width:230px;
   height:48px;
@@ -228,13 +230,11 @@ main{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* justify-content: center;
-  align-items: center; */
   gap:115px;
   padding: 130px 0px;
- 
   
 }
+
 .header-section{
   font-weight: bold;
   font-size: 97px;
@@ -257,22 +257,60 @@ input[type="text"],input[type="email"]{
   padding: 0 10px;
   font-size: 20px;
   margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 
 textarea{
   height:135px;
   width:497px;
+   font-size: 20px;
   background-color: #FFFFFF;
   color:#FFFFFF;
   border-radius:10px ;
    margin-bottom: 20px;
+   margin-top: 5px;
    padding:20px;
 }
 .get-btn{
   height:62px;
 }
+/* Footer Section Styles */
 
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ margin:100px 0px ;
+
+  
+}
+
+.footer-header-section{
+  font-weight: 900;
+  font-size: 100px;
+  color:#4E47FF;
+}
+.footer-description{
+  width:531px;
+  height:48px;
+  color:#8987A1;
+}
+.about-section{
+  display: flex;
+  flex-direction: row;
+  gap:48px;
+   color:#8987A1;
+} 
+.footer-nav ul a{
+  text-decoration: none;
+}
+
+.footer-nav ul li{
+  list-style-type: none;
+}
 
 
 
