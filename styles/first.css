@@ -68,6 +68,10 @@ nav a{
   color:#FFFFFF;
 
 }
+.btn:hover{
+  background-color: tomato;
+}
+
 
 /* End Shared Styles */
 .nav-btn{
@@ -158,6 +162,10 @@ main{
   max-width: 1140px;
   margin:0 auto;
 }
+main{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 .item-title{
   font-weight: bold;
   font-size: 50px;
@@ -213,6 +221,58 @@ main{
 .user-image{
   border-radius: 50%;
 }
+
+/* Form Styles */
+
+.touch-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  gap:115px;
+  padding: 130px 0px;
+ 
+  
+}
+.header-section{
+  font-weight: bold;
+  font-size: 97px;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input[type="text"],input[type="email"]{
+  height:70px;
+  width:497px;
+  border-radius:10px ;
+  background-color: rgb(240, 234, 234);
+  color:#FFFFFF;
+  border:none;
+  padding: 0 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+textarea{
+  height:135px;
+  width:497px;
+  background-color: #FFFFFF;
+  color:#FFFFFF;
+  border-radius:10px ;
+   margin-bottom: 20px;
+   padding:20px;
+}
+.get-btn{
+  height:62px;
+}
+
 
 
 
