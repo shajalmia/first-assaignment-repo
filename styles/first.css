@@ -1,0 +1,93 @@
+
+/* Raleway font */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Inter font */
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Header Styles */
+
+.header{
+  background-image: url('../images/nav-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+ 
+ 
+  
+ 
+}
+
+
+
+
+
+/* nav styles */
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 150px;
+    
+}
+
+.nav-title{
+   font-weight:900;
+   font-size: 34px;
+    color:#4E47FF;
+}
+nav a{
+  text-decoration: none;
+}
+
+/* Shared Styles */
+.btn{
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border:none;
+  background-color: #4E47FF;
+  color:#FFFFFF;
+
+}
+.nav-btn{
+  height:48px;
+  width:132px;
+}
+
+/* Banner Styles */
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  gap:37px;
+  max-width:900px;
+  
+  
+}
+
+.banner-heading{
+  font-weight: bold;
+  font-size: 65px;
+  text-align: center;
+
+}
+.ban-btn{
+  height:48px;
+  width:175px
+
+}
